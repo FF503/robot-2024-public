@@ -12,21 +12,21 @@ import org.frogforce503.lib.util.SwitchableChooser;
 import org.frogforce503.robot2024.RobotContainer;
 import org.frogforce503.robot2024.RobotStatus;
 import org.frogforce503.robot2024.RobotStatus.AllianceColor;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueAmp4CenterLineOFSZ;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueAmp4CenterLineOFSZ_SHIFT;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueAmp4CenterLineOFSZ_SHIFT_WINGLINE;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueCenter4OFSZ;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedCenter4OFSZ;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueCleanup5OFSZ;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.AltBlueCleanup5NoteOFSZ;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueSource4NoteOFSZ_SHIFT;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.AltRedCleanup5NoteOFSZ;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedAmp4CenterLineOFSZ;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedAmp4CenterLineOFSZ_SHIFT;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedAmp4CenterLineOFSZ_SHIFT_WINGLINE;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedCleanup5OFSZ;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedSource4NoteOFSZ;
-import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedSource4NoteOFSZ_SHIFT;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueAmp4CenterLineOFSZ;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueAmp4CenterLineOFSZ_SHIFT;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueAmp4CenterLineOFSZ_SHIFT_WINGLINE;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueCenter4OFSZ;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedCenter4OFSZ;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueCleanup5OFSZ;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.AltBlueCleanup5NoteOFSZ;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.blue.BlueSource4NoteOFSZ_SHIFT;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.AltRedCleanup5NoteOFSZ;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedAmp4CenterLineOFSZ;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedAmp4CenterLineOFSZ_SHIFT;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedAmp4CenterLineOFSZ_SHIFT_WINGLINE;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedCleanup5OFSZ;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedSource4NoteOFSZ;
+// import org.frogforce503.robot2024.auto.comp.WorkingAutons.red.RedSource4NoteOFSZ_SHIFT;
 import org.frogforce503.robot2024.fields.FieldConfig;
 import org.frogforce503.robot2024.subsystems.drive.Drive;
 import org.frogforce503.robot2024.subsystems.sim.Visualizer;
@@ -73,12 +73,12 @@ public class AutoChooser {
             new HashMap<StartingLocation, HashMap<String, Pair<CENTERLINE_NOTES[], Supplier<AutoMode>>>>() {{
                 put(StartingLocation.LEFT, new HashMap<String, Pair<CENTERLINE_NOTES[], Supplier<AutoMode>>>() {{
 
-                    put("RED_SOURCE_4_CL3_SHIFT", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.D, CENTERLINE_NOTES.E, CENTERLINE_NOTES.F}, 
-                    () -> new RedSource4NoteOFSZ_SHIFT(
-                        RobotContainer.autoChooser.priority1Chooser.get(), 
-                        RobotContainer.autoChooser.priority2Chooser.get(),
-                        RobotContainer.autoChooser.priority3Chooser.get()
-                    )));
+                    // put("RED_SOURCE_4_CL3_SHIFT", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.D, CENTERLINE_NOTES.E, CENTERLINE_NOTES.F}, 
+                    // () -> new RedSource4NoteOFSZ_SHIFT(
+                    //     RobotContainer.autoChooser.priority1Chooser.get(), 
+                    //     RobotContainer.autoChooser.priority2Chooser.get(),
+                    //     RobotContainer.autoChooser.priority3Chooser.get()
+                    // )));
 
                     // put("RED_SOURCE_4_CL3", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.D, CENTERLINE_NOTES.E, CENTERLINE_NOTES.F}, 
                     // () -> new RedSource4NoteOFSZ(
@@ -90,25 +90,25 @@ public class AutoChooser {
                 }});
                 put(StartingLocation.CENTER, new HashMap<String, Pair<CENTERLINE_NOTES[], Supplier<AutoMode>>>() {{
 
-                    put("RED_CENTER_CLEANUP_5", Pair.of(empty, RedCleanup5OFSZ::new));
+                    // put("RED_CENTER_CLEANUP_5", Pair.of(empty, RedCleanup5OFSZ::new));
 
-                    put("ALT_RED_CENTER_CLEANUP_5", Pair.of(empty, AltRedCleanup5NoteOFSZ::new));
+                    // put("ALT_RED_CENTER_CLEANUP_5", Pair.of(empty, AltRedCleanup5NoteOFSZ::new));
 
-                    put("RED_CENTER_PB-CL2", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.E, CENTERLINE_NOTES.F, CENTERLINE_NOTES.G }, 
-                    () -> new RedCenter4OFSZ(
-                        RobotContainer.autoChooser.priority1Chooser.get(), 
-                        RobotContainer.autoChooser.priority2Chooser.get()
-                    )));
+                    // put("RED_CENTER_PB-CL2", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.E, CENTERLINE_NOTES.F, CENTERLINE_NOTES.G }, 
+                    // () -> new RedCenter4OFSZ(
+                    //     RobotContainer.autoChooser.priority1Chooser.get(), 
+                    //     RobotContainer.autoChooser.priority2Chooser.get()
+                    // )));
 
                 }});
                 put(StartingLocation.RIGHT, new HashMap<String, Pair<CENTERLINE_NOTES[], Supplier<AutoMode>>>() {{
 
-                    put("RED_AMP_4_CL3_SHIFT_WINGLINE", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.F, CENTERLINE_NOTES.G, CENTERLINE_NOTES.H}, 
-                    () -> new RedAmp4CenterLineOFSZ_SHIFT_WINGLINE(
-                        RobotContainer.autoChooser.priority1Chooser.get(), 
-                        RobotContainer.autoChooser.priority2Chooser.get(),
-                        RobotContainer.autoChooser.priority3Chooser.get()
-                    )));
+                    // put("RED_AMP_4_CL3_SHIFT_WINGLINE", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.F, CENTERLINE_NOTES.G, CENTERLINE_NOTES.H}, 
+                    // () -> new RedAmp4CenterLineOFSZ_SHIFT_WINGLINE(
+                    //     RobotContainer.autoChooser.priority1Chooser.get(), 
+                    //     RobotContainer.autoChooser.priority2Chooser.get(),
+                    //     RobotContainer.autoChooser.priority3Chooser.get()
+                    // )));
 
                     // put("RED_AMP_4_CL3_SHIFT", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.F, CENTERLINE_NOTES.G, CENTERLINE_NOTES.H}, 
                     // () -> new RedAmp4CenterLineOFSZ_SHIFT(
@@ -132,12 +132,12 @@ public class AutoChooser {
             new HashMap<StartingLocation, HashMap<String, Pair<CENTERLINE_NOTES[], Supplier<AutoMode>>>>() {{
                 put(StartingLocation.LEFT, new HashMap<String, Pair<CENTERLINE_NOTES[], Supplier<AutoMode>>>() {{
 
-                    put("BLUE_AMP_4_CL3_SHIFT_WINGLINE", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.F, CENTERLINE_NOTES.G, CENTERLINE_NOTES.H}, 
-                    () -> new BlueAmp4CenterLineOFSZ_SHIFT_WINGLINE(
-                        RobotContainer.autoChooser.priority1Chooser.get(), 
-                        RobotContainer.autoChooser.priority2Chooser.get(),
-                        RobotContainer.autoChooser.priority3Chooser.get()
-                    )));
+                    // put("BLUE_AMP_4_CL3_SHIFT_WINGLINE", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.F, CENTERLINE_NOTES.G, CENTERLINE_NOTES.H}, 
+                    // () -> new BlueAmp4CenterLineOFSZ_SHIFT_WINGLINE(
+                    //     RobotContainer.autoChooser.priority1Chooser.get(), 
+                    //     RobotContainer.autoChooser.priority2Chooser.get(),
+                    //     RobotContainer.autoChooser.priority3Chooser.get()
+                    // )));
 
                     // put("BLUE_AMP_4_CL3_SHIFT",  Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.H, CENTERLINE_NOTES.G, CENTERLINE_NOTES.F },
                     // () -> new BlueAmp4CenterLineOFSZ_SHIFT(
@@ -156,25 +156,25 @@ public class AutoChooser {
                 }});
                 put(StartingLocation.CENTER, new HashMap<String, Pair<CENTERLINE_NOTES[], Supplier<AutoMode>>>() {{
             
-                    put("ALT_BLUE_CENTER_CLEANUP_5", Pair.of(empty, AltBlueCleanup5NoteOFSZ::new));
+                    // put("ALT_BLUE_CENTER_CLEANUP_5", Pair.of(empty, AltBlueCleanup5NoteOFSZ::new));
 
-                    put("BLUE_CENTER_CLEANUP_5", Pair.of(empty, BlueCleanup5OFSZ::new));
+                    // put("BLUE_CENTER_CLEANUP_5", Pair.of(empty, BlueCleanup5OFSZ::new));
 
-                    put("BLUE_CENTER_PJ-CL2", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.E, CENTERLINE_NOTES.F, CENTERLINE_NOTES.G }, 
-                    () -> new BlueCenter4OFSZ(
-                        RobotContainer.autoChooser.priority1Chooser.get(), 
-                        RobotContainer.autoChooser.priority2Chooser.get()
-                    )));
+                    // put("BLUE_CENTER_PJ-CL2", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.E, CENTERLINE_NOTES.F, CENTERLINE_NOTES.G }, 
+                    // () -> new BlueCenter4OFSZ(
+                    //     RobotContainer.autoChooser.priority1Chooser.get(), 
+                    //     RobotContainer.autoChooser.priority2Chooser.get()
+                    // )));
                     
                 }});
                 put(StartingLocation.RIGHT, new HashMap<String, Pair<CENTERLINE_NOTES[], Supplier<AutoMode>>>() {{
 
-                    put("BLUE_SOURCE_4_CL3_SHIFT", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.D, CENTERLINE_NOTES.E, CENTERLINE_NOTES.F }, 
-                    () -> new BlueSource4NoteOFSZ_SHIFT(
-                        RobotContainer.autoChooser.priority1Chooser.get(), 
-                        RobotContainer.autoChooser.priority2Chooser.get(),
-                        RobotContainer.autoChooser.priority3Chooser.get()
-                    )));
+                    // put("BLUE_SOURCE_4_CL3_SHIFT", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.D, CENTERLINE_NOTES.E, CENTERLINE_NOTES.F }, 
+                    // () -> new BlueSource4NoteOFSZ_SHIFT(
+                    //     RobotContainer.autoChooser.priority1Chooser.get(), 
+                    //     RobotContainer.autoChooser.priority2Chooser.get(),
+                    //     RobotContainer.autoChooser.priority3Chooser.get()
+                    // )));
 
                     // put("BLUE_SOURCE_4_CL3", Pair.of(new CENTERLINE_NOTES[] { CENTERLINE_NOTES.D, CENTERLINE_NOTES.E, CENTERLINE_NOTES.F }, 
                     // () -> new BlueSource4NoteOFSZ(
