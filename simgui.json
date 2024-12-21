@@ -1,0 +1,152 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "window": {
+        "visible": false
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/Shuffleboard/DriverStation/Auto Chooser/Alliance Color": "String Chooser",
+      "/Shuffleboard/DriverStation/Auto Chooser/Starting Grid": "String Chooser",
+      "/Shuffleboard/DriverStation/SendableChooser[2]": "String Chooser",
+      "/SmartDashboard/AutoChooser/Alliance Color": "String Chooser",
+      "/SmartDashboard/AutoChooser/Priority 1": "String Chooser",
+      "/SmartDashboard/AutoChooser/Priority 2": "String Chooser",
+      "/SmartDashboard/AutoChooser/Priority 3": "String Chooser",
+      "/SmartDashboard/AutoChooser/Routine": "String Chooser",
+      "/SmartDashboard/AutoChooser/Starting Location": "String Chooser",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/Scheduler": "Scheduler",
+      "/SmartDashboard/Swerve/Visualizer": "Mechanism2d",
+      "/SmartDashboard/arm": "Mechanism2d"
+    },
+    "windows": {
+      "/SmartDashboard/AutoChooser/Alliance Color": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/AutoChooser/Priority 1": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/AutoChooser/Priority 2": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/AutoChooser/Priority 3": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/AutoChooser/Routine": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/AutoChooser/Starting Location": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Field": {
+        "Trajectory": {
+          "arrows": false,
+          "style": "Line"
+        },
+        "bottom": 1476,
+        "height": 8.210550308227539,
+        "left": 150,
+        "right": 2961,
+        "top": 79,
+        "width": 16.541748046875,
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "Persistent Values": {
+      "open": false
+    },
+    "Retained Values": {
+      "open": false
+    },
+    "persistent": {
+      "Shuffleboard": {
+        "DriverStation": {
+          "Auto Chooser": {
+            "open": true
+          },
+          "open": true
+        },
+        "open": true
+      }
+    },
+    "retained": {
+      "Shuffleboard": {
+        "DriverStation": {
+          "Auto Chooser": {
+            "open": true
+          },
+          "open": true
+        },
+        "open": true
+      },
+      "SmartDashboard": {
+        "AutoChooser": {
+          "open": true
+        },
+        "open": true
+      }
+    },
+    "transitory": {
+      "Shuffleboard": {
+        "Arm": {
+          "Arm Motor": {
+            "PIDs": {
+              "open": true
+            },
+            "open": true
+          },
+          "open": true
+        },
+        "Feeder": {
+          "open": true
+        }
+      },
+      "SmartDashboard": {
+        "AutoChooser": {
+          "Alliance Color": {
+            "open": true
+          },
+          "open": true
+        },
+        "Field": {
+          "open": true
+        },
+        "Swerve": {
+          "Visualizer": {
+            "open": true
+          }
+        },
+        "open": true
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "Clients": {
+      "open": true
+    },
+    "Server": {
+      "open": true
+    },
+    "visible": true
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "tabPane": [
+    {
+      "title": "AutoChooser",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "0,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/AutoChooser/Routine",
+              "_title": "Routine Options",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "0,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/AutoChooser/Alliance Color",
+              "_title": "Alliance Color",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "0,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/AutoChooser/Starting Location",
+              "_title": "Starting Location",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/AutoChooser/Commit Auton Config",
+              "_title": "Commit",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "8,0": {
+            "size": [
+              1,
+              4
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/AutoChooser/Ready to run??",
+              "_title": "Ready to run??",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "5,3": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AutoChooser/Selected Auto Name",
+              "_title": "Selected Auto Name",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,0": {
+            "size": [
+              5,
+              3
+            ],
+            "content": {
+              "_type": "Field",
+              "_source0": "network_table:///SmartDashboard/Field",
+              "_title": "Auton Preview",
+              "_glyph": 0,
+              "_showGlyph": false,
+              "Game/Game": "k2024Crescendo",
+              "Visuals/Robot Icon Size": 50.0,
+              "Visuals/Show Outside Circles": false,
+              "Colors/VisionFrontLeft": "#FFFFFFFF",
+              "Colors/VisionBackRight": "#FFFFFFFF",
+              "Colors/VisionFrontRight": "#FFFFFFFF",
+              "Colors/VisionBack": "#FFFFFFFF",
+              "Colors/NUMBER_3": "#FFFFFFFF",
+              "Colors/NUMBER_2": "#FFFFFFFF",
+              "Colors/Trajectory": "#FFFFFFFF",
+              "Colors/CurrentTrajectory": "#FFFFFFFF",
+              "Colors/VisionBackLeft": "#FFFFFFFF",
+              "Colors/NUMBER_1": "#FFFFFFFF"
+            }
+          },
+          "0,3": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/AutoChooser/Priority 1",
+              "_title": "Priority 1",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "1,3": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/AutoChooser/Priority 2",
+              "_title": "Priority 2",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,3": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/AutoChooser/Priority 3",
+              "_title": "Priority 3",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "7,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/DashboardInputs/AutoChooser/Front Camera Status",
+              "_title": "Front Camera",
+              "_glyph": 80,
+              "_showGlyph": true,
+              "Colors/Color when true": "#008000FF",
+              "Colors/Color when false": "#FF0000FF"
+            }
+          },
+          "7,1": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/DashboardInputs/AutoChooser/Back Camera Status",
+              "_title": "Back Camera",
+              "_glyph": 80,
+              "_showGlyph": true,
+              "Colors/Color when true": "#008000FF",
+              "Colors/Color when false": "#FF0000FF"
+            }
+          },
+          "7,2": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/DashboardInputs/AutoChooser/Note Detector Camera Status",
+              "_title": "Note Camera",
+              "_glyph": 80,
+              "_showGlyph": true,
+              "Colors/Color when true": "#008000FF",
+              "Colors/Color when false": "#FF0000FF"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "windowGeometry": {
+    "x": -7.333333492279053,
+    "y": -7.333333492279053,
+    "width": 1294.6666259765625,
+    "height": 766.6666870117188
+  }
+}

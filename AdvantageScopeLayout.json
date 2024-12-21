@@ -1,0 +1,525 @@
+{
+  "hubs": [
+    {
+      "x": 110,
+      "y": 91,
+      "width": 1108,
+      "height": 661,
+      "state": {
+        "sidebar": {
+          "width": 326,
+          "expanded": [
+            "/Shuffleboard/Wrist/Wrist Motor",
+            "/Shuffleboard/Arm/Arm Motor",
+            "/AdvantageKit/RealOutputs/Vision/UsingCameras",
+            "/AdvantageKit/RealOutputs/Swerve/Pose",
+            "/AdvantageKit/RealOutputs/Swerve/Pose/Rotation",
+            "/photonvision/Arducam_OV9281_USB_Camera (1)",
+            "/AdvantageKit/RealOutputs/Shooter",
+            "/AdvantageKit/RealOutputs/Vision",
+            "/Shuffleboard",
+            "/SmartDashboard/Swerve",
+            "/AdvantageKit/RealOutputs/Swerve",
+            "/SmartDashboard/Scheduler/Names",
+            "/SmartDashboard/Scheduler/Cancel",
+            "/AdvantageKit/RealOutputs/ShotPlanner",
+            "/AdvantageKit/RealOutputs/ShotPlanner/Hint",
+            "/Shuffleboard/Shooter/Shooter Motor",
+            "/Shuffleboard/Wrist",
+            "/Shuffleboard/Intake/Intake Motor",
+            "/AdvantageKit/RealOutputs/Vision/NoteToRobot",
+            "/AdvantageKit/RealOutputs/Vision/NoteToRobot/translation",
+            "/Shuffleboard/Arm",
+            "/Shuffleboard/Feeder/Feeder Motor",
+            "/Shuffleboard/ShotPlanner",
+            "/Shuffleboard/Feeder",
+            "/Shuffleboard/Shooter",
+            "/AdvantageKit/RealOutputs",
+            "/Shuffleboard/COAST MODE",
+            "/Shuffleboard/Wrist/Wrist Motor/PIDs",
+            "/AdvantageKit",
+            "/AdvantageKit/PowerDistribution",
+            "/AdvantageKit/DriverStation"
+          ]
+        },
+        "tabs": {
+          "selected": 1,
+          "tabs": [
+            {
+              "type": 0,
+              "path": "../docs/INDEX.md"
+            },
+            {
+              "type": 6,
+              "uuid": "af7rjbqzqlvxyhtt3gc7l8mly3bc35gd",
+              "fields": [],
+              "listFields": [
+                [
+                  {
+                    "type": "Component (Robot)",
+                    "key": "NT:/AdvantageKit/RealOutputs/Mechanism",
+                    "sourceTypeIndex": 2,
+                    "sourceType": "Pose3d[]"
+                  },
+                  {
+                    "type": "Game Piece 0",
+                    "key": "NT:/AdvantageKit/RealOutputs/HeldNote",
+                    "sourceTypeIndex": 2,
+                    "sourceType": "Pose3d[]"
+                  },
+                  {
+                    "type": "Game Piece 0",
+                    "key": "NT:/AdvantageKit/RealOutputs/ShotNote",
+                    "sourceTypeIndex": 2,
+                    "sourceType": "Pose3d[]"
+                  },
+                  {
+                    "type": "Game Piece 0",
+                    "key": "NT:/AdvantageKit/RealOutputs/FloorNotes",
+                    "sourceTypeIndex": 2,
+                    "sourceType": "Pose3d[]"
+                  },
+                  {
+                    "type": "Axes",
+                    "key": "NT:/AdvantageKit/RealOutputs/Camera_BackCenter",
+                    "sourceTypeIndex": 1,
+                    "sourceType": "Pose3d"
+                  },
+                  {
+                    "type": "Axes",
+                    "key": "NT:/AdvantageKit/RealOutputs/Camera_BackLeft",
+                    "sourceTypeIndex": 1,
+                    "sourceType": "Pose3d"
+                  },
+                  {
+                    "type": "Axes",
+                    "key": "NT:/AdvantageKit/RealOutputs/Camera_BackRight",
+                    "sourceTypeIndex": 1,
+                    "sourceType": "Pose3d"
+                  },
+                  {
+                    "type": "Axes",
+                    "key": "NT:/AdvantageKit/RealOutputs/Camera_FrontLeft",
+                    "sourceTypeIndex": 1,
+                    "sourceType": "Pose3d"
+                  },
+                  {
+                    "type": "Axes",
+                    "key": "NT:/AdvantageKit/RealOutputs/Camera_FrontRight",
+                    "sourceTypeIndex": 1,
+                    "sourceType": "Pose3d"
+                  },
+                  {
+                    "type": "Vision Target",
+                    "key": "NT:/AdvantageKit/RealOutputs/ShotPlanner/AimTarget",
+                    "sourceTypeIndex": 1,
+                    "sourceType": "Pose3d"
+                  }
+                ],
+                [
+                  {
+                    "type": "Robot",
+                    "key": "NT:/SmartDashboard/Field/Robot",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Trajectory",
+                    "key": "NT:/SmartDashboard/Field/Trajectory",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Trajectory",
+                    "key": "NT:/SmartDashboard/Field/NUMBER_1",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Trajectory",
+                    "key": "NT:/SmartDashboard/Field/NUMBER_2",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Trajectory",
+                    "key": "NT:/SmartDashboard/Field/NUMBER_3",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Vision Target",
+                    "key": "NT:/AdvantageKit/RealOutputs/ShotPlanner/PredictedPose",
+                    "sourceTypeIndex": 1,
+                    "sourceType": "Pose2d"
+                  },
+                  {
+                    "type": "Green Ghost",
+                    "key": "NT:/SmartDashboard/Field/VisionFrontRight",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Yellow Ghost",
+                    "key": "NT:/SmartDashboard/Field/VisionFrontLeft",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Blue Ghost",
+                    "key": "NT:/SmartDashboard/Field/VisionBackLeft",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Red Ghost",
+                    "key": "NT:/SmartDashboard/Field/VisionBack",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Vision Target",
+                    "key": "NT:/AdvantageKit/RealOutputs/Vision/Note/translation",
+                    "sourceTypeIndex": 5,
+                    "sourceType": "Translation2d"
+                  }
+                ]
+              ],
+              "options": {
+                "field": "2024 Field",
+                "alliance": "blue",
+                "robot": "MiggyMinaj",
+                "unitDistance": "meters",
+                "unitRotation": "degrees"
+              },
+              "configHidden": false,
+              "visualizer": {
+                "cameraIndex": -2,
+                "orbitFov": 50,
+                "cameraPosition": [
+                  1.4787160204402885,
+                  3.1662753998443494,
+                  0.13828303245837203
+                ],
+                "cameraTarget": [
+                  0.14224222415004015,
+                  0.350847323405193,
+                  0.1925602918901606
+                ]
+              },
+              "title": "3D Field"
+            },
+            {
+              "type": 8,
+              "uuid": "vntizjxi5myjblsozaem9itml69r98ff",
+              "fields": [],
+              "listFields": [],
+              "options": {
+                "ids": [
+                  0,
+                  1,
+                  2
+                ],
+                "layouts": [
+                  "Xbox Controller (White)",
+                  "None",
+                  "None"
+                ]
+              },
+              "configHidden": false,
+              "visualizer": null,
+              "title": "Joysticks"
+            },
+            {
+              "type": 1,
+              "legendHeight": 0.3,
+              "legends": {
+                "left": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": [
+                    {
+                      "key": "NT:/AdvantageKit/RealOutputs/ShotPlanner/AngleTarget",
+                      "color": "#2b66a2",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/AdvantageKit/RealOutputs/Swerve/Pose/Rotation/Yaw",
+                      "color": "#e5b31b",
+                      "show": true
+                    }
+                  ]
+                },
+                "discrete": {
+                  "fields": []
+                },
+                "right": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": []
+                }
+              },
+              "title": "Line Graph"
+            },
+            {
+              "type": 3,
+              "field": "NT:/Shuffleboard/ShotPlanner/Current ShotMap",
+              "title": "Console"
+            },
+            {
+              "type": 3,
+              "field": "NT:/AdvantageKit/RealOutputs/Console",
+              "title": "Console"
+            },
+            {
+              "type": 1,
+              "legendHeight": 0.3,
+              "legends": {
+                "left": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/Wrist Motor/Position",
+                      "color": "#2b66a2",
+                      "show": true
+                    }
+                  ]
+                },
+                "discrete": {
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Shooter/At Setpoint",
+                      "color": "#e5b31b",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Arm/Arm At Goal",
+                      "color": "#af2437",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/At Setpoint",
+                      "color": "#80588e",
+                      "show": true
+                    }
+                  ]
+                },
+                "right": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Arm/Arm Motor/Position",
+                      "color": "#e48b32",
+                      "show": true
+                    }
+                  ]
+                }
+              },
+              "title": "Line Graph"
+            },
+            {
+              "type": 1,
+              "legendHeight": 0.3,
+              "legends": {
+                "left": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/Wrist Motor/Position",
+                      "color": "#2b66a2",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/Setpoint",
+                      "color": "#e5b31b",
+                      "show": true
+                    }
+                  ]
+                },
+                "discrete": {
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/At Setpoint",
+                      "color": "#af2437",
+                      "show": true
+                    }
+                  ]
+                },
+                "right": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": []
+                }
+              },
+              "title": "Line Graph"
+            },
+            {
+              "type": 1,
+              "legendHeight": 0.3,
+              "legends": {
+                "left": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Arm/Arm Motor/Position",
+                      "color": "#2b66a2",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/Wrist Motor/Position",
+                      "color": "#e5b31b",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Arm/Setpoint",
+                      "color": "#af2437",
+                      "show": true
+                    }
+                  ]
+                },
+                "discrete": {
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Arm/Goal",
+                      "color": "#80588e",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/Goal",
+                      "color": "#e48b32",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/AdvantageKit/RealOutputs/ShotPlanner/IsHinting",
+                      "color": "#aacaee",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Shooter/Goal",
+                      "color": "#c0b487",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Feeder/Goal",
+                      "color": "#858584",
+                      "show": true
+                    }
+                  ]
+                },
+                "right": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Shooter/Shooter Motor/Velocity",
+                      "color": "#3b875a",
+                      "show": true
+                    }
+                  ]
+                }
+              },
+              "title": "Line Graph"
+            },
+            {
+              "type": 2,
+              "fields": [],
+              "title": "Table"
+            },
+            {
+              "type": 1,
+              "legendHeight": 0.5393939393939394,
+              "legends": {
+                "left": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": []
+                },
+                "discrete": {
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/At Setpoint",
+                      "color": "#2b66a2",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Shooter/At Setpoint",
+                      "color": "#e5b31b",
+                      "show": false
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Feeder/Exit Beam Break",
+                      "color": "#af2437",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/Goal",
+                      "color": "#80588e",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Feeder/Goal",
+                      "color": "#e48b32",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Shooter/Goal",
+                      "color": "#aacaee",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Arm/Arm At Goal",
+                      "color": "#c0b487",
+                      "show": true
+                    }
+                  ]
+                },
+                "right": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": []
+                }
+              },
+              "title": "Line Graph"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "satellites": [],
+  "version": "3.2.0"
+}

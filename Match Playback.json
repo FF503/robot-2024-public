@@ -1,0 +1,484 @@
+{
+  "hubs": [
+    {
+      "x": 486,
+      "y": 0,
+      "width": 800,
+      "height": 758,
+      "state": {
+        "sidebar": {
+          "width": 300,
+          "expanded": [
+            "/Shuffleboard/Wrist",
+            "/Shuffleboard/Climber Left/Climber Left Motor",
+            "/Shuffleboard/Climber Right/Climber Right Motor",
+            "/SmartDashboard/Scheduler/Names",
+            "/AdvantageKit",
+            "/AdvantageKit/RealOutputs/Swerve",
+            "/Shuffleboard/DriverStation/Auto Chooser",
+            "/AdvantageKit/RealOutputs",
+            "/SmartDashboard/Scheduler",
+            "/Shuffleboard/Wrist/Wrist Motor",
+            "/SmartDashboard/Swerve",
+            "/Shuffleboard/Shooter/Shooter Motor",
+            "/Shuffleboard/ShotPlanner",
+            "/Shuffleboard",
+            "/AdvantageKit/DashboardInputs",
+            "/AdvantageKit/DashboardInputs/AutoChooser",
+            "/Shuffleboard/Arm/Arm Motor",
+            "/Shuffleboard/Feeder/Feeder Motor",
+            "/Shuffleboard/Shooter/Shooter Motor/PIDs",
+            "/AdvantageKit/RealOutputs/Logger",
+            "/Shuffleboard/Climber Right",
+            "/AdvantageKit/RealOutputs/Vision",
+            "/SmartDashboard",
+            "/SmartDashboard/Field",
+            "/Shuffleboard/Feeder",
+            "/Shuffleboard/COAST MODE",
+            "/NTConnection",
+            "/NT",
+            "/NT/AdvantageKit",
+            "/NT/AdvantageKit/DriverStation",
+            "/NT/AdvantageKit/PowerDistribution",
+            "/NT/AdvantageKit/RealOutputs",
+            "/NT/AdvantageKit/SystemStats",
+            "/NT/AdvantageKit/SystemStats/5vRail",
+            "/NT/AdvantageKit/SystemStats/3v3Rail",
+            "/NT/AdvantageKit/SystemStats/CANBus",
+            "/NT/AdvantageKit/RealOutputs/Vision",
+            "/NT/SmartDashboard",
+            "/NT/SmartDashboard/Field",
+            "/Shuffleboard/Intake",
+            "/Shuffleboard/Arm",
+            "/Shuffleboard/Climber Left",
+            "/NT/AdvantageKit/DriverStation/Joystick0",
+            "/NT/AdvantageKit/RealOutputs/Swerve"
+          ]
+        },
+        "tabs": {
+          "selected": 8,
+          "tabs": [
+            {
+              "type": 0,
+              "path": "../docs/INDEX.md"
+            },
+            {
+              "type": 1,
+              "legendHeight": 0.3,
+              "legends": {
+                "left": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/ShotPlanner/Distance To Goal",
+                      "color": "#2b66a2",
+                      "show": true
+                    }
+                  ]
+                },
+                "discrete": {
+                  "fields": [
+                    {
+                      "key": "NT:/SmartDashboard/Scheduler/Names",
+                      "color": "#e5b31b",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/At Setpoint",
+                      "color": "#af2437",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Arm/Arm At Goal",
+                      "color": "#80588e",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Shooter/At Setpoint",
+                      "color": "#e48b32",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/Goal",
+                      "color": "#aacaee",
+                      "show": true
+                    }
+                  ]
+                },
+                "right": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Shooter/Shooter Motor/Velocity",
+                      "color": "#c0b487",
+                      "show": true
+                    }
+                  ]
+                }
+              },
+              "title": "Line Graph"
+            },
+            {
+              "type": 1,
+              "legendHeight": 0.4893939393939394,
+              "legends": {
+                "left": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Shooter/Shooter Motor/Velocity",
+                      "color": "#2b66a2",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Climber Left/Climber Left Motor/Position",
+                      "color": "#e5b31b",
+                      "show": true
+                    }
+                  ]
+                },
+                "discrete": {
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Arm/Goal",
+                      "color": "#af2437",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/Goal",
+                      "color": "#80588e",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Shooter/Goal",
+                      "color": "#e48b32",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Arm/Arm At Goal",
+                      "color": "#aacaee",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Shooter/At Hail Mary",
+                      "color": "#c0b487",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/At Setpoint",
+                      "color": "#858584",
+                      "show": true
+                    }
+                  ]
+                },
+                "right": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/Wrist Motor/Position",
+                      "color": "#3b875a",
+                      "show": true
+                    }
+                  ]
+                }
+              },
+              "title": "Line Graph"
+            },
+            {
+              "type": 1,
+              "legendHeight": 0.3,
+              "legends": {
+                "left": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": []
+                },
+                "discrete": {
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Arm/Arm At Goal",
+                      "color": "#2b66a2",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Arm/Goal",
+                      "color": "#e5b31b",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Shooter/Goal",
+                      "color": "#af2437",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Wrist/At Setpoint",
+                      "color": "#80588e",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Feeder/Entry Beam Break",
+                      "color": "#e48b32",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Feeder/Exit Beam Break",
+                      "color": "#aacaee",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/AdvantageKit/DriverStation/Autonomous",
+                      "color": "#c0b487",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/AdvantageKit/SystemStats/BrownedOut",
+                      "color": "#858584",
+                      "show": true
+                    }
+                  ]
+                },
+                "right": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": []
+                }
+              },
+              "title": "Line Graph"
+            },
+            {
+              "type": 1,
+              "legendHeight": 0.3,
+              "legends": {
+                "left": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": []
+                },
+                "discrete": {
+                  "fields": [
+                    {
+                      "key": "NT:/Shuffleboard/Feeder/Entry Beam Break",
+                      "color": "#2b66a2",
+                      "show": true
+                    },
+                    {
+                      "key": "NT:/Shuffleboard/Feeder/Exit Beam Break",
+                      "color": "#e5b31b",
+                      "show": true
+                    }
+                  ]
+                },
+                "right": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": []
+                }
+              },
+              "title": "Line Graph"
+            },
+            {
+              "type": 4,
+              "fields": [
+                "NT:/AdvantageKit/RealOutputs/Swerve/AttainedWheelSpeed",
+                null,
+                null
+              ],
+              "selectionType": "full",
+              "selectionRangeMin": 0,
+              "selectionRangeMax": 10,
+              "measurementType": "independent",
+              "measurementSampling": "fixed",
+              "measurementSamplingPeriod": 20,
+              "histogramMin": 0,
+              "histogramMax": 10,
+              "histogramStep": 1,
+              "title": "Statistics"
+            },
+            {
+              "type": 5,
+              "uuid": "1zn0tv66xu0bzaue8t2b960u9ep4n3ao",
+              "fields": [],
+              "listFields": [
+                [
+                  {
+                    "type": "Robot",
+                    "key": "NT:/SmartDashboard/Field/Robot",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Trajectory",
+                    "key": "NT:/SmartDashboard/Field/Trajectory",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Ghost",
+                    "key": "NT:/SmartDashboard/Field/VisionFrontLeft",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Trajectory",
+                    "key": "NT:/SmartDashboard/Field/NUMBER_1",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Trajectory",
+                    "key": "NT:/SmartDashboard/Field/NUMBER_2",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Trajectory",
+                    "key": "NT:/SmartDashboard/Field/NUMBER_3",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  }
+                ]
+              ],
+              "options": {
+                "game": "2024 Field",
+                "unitDistance": "meters",
+                "unitRotation": "degrees",
+                "origin": "right",
+                "size": 0.75,
+                "allianceBumpers": "auto",
+                "allianceOrigin": "blue",
+                "orientation": "blue left, red right"
+              },
+              "configHidden": false,
+              "visualizer": null,
+              "title": "Odometry"
+            },
+            {
+              "type": 8,
+              "uuid": "47uw5hovjpljcdppehvj8hwee62q0en2",
+              "fields": [],
+              "listFields": [],
+              "options": {
+                "ids": [
+                  0,
+                  1,
+                  2
+                ],
+                "layouts": [
+                  "Xbox Controller (White)",
+                  "Xbox Controller (Blue)",
+                  "None"
+                ]
+              },
+              "configHidden": false,
+              "visualizer": null,
+              "title": "Joysticks"
+            },
+            {
+              "type": 6,
+              "uuid": "mupym05q1o3l8wdhxve4gx17mc562g1q",
+              "fields": [],
+              "listFields": [
+                [],
+                [
+                  {
+                    "type": "Green Ghost",
+                    "key": "NT:/SmartDashboard/Field/VisionFrontLeft",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Robot",
+                    "key": "NT:/SmartDashboard/Field/Robot",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  },
+                  {
+                    "type": "Yellow Ghost",
+                    "key": "NT:/SmartDashboard/Field/VisionBackLeft",
+                    "sourceTypeIndex": 0,
+                    "sourceType": 5
+                  }
+                ]
+              ],
+              "options": {
+                "field": "2024 Field",
+                "alliance": "blue",
+                "robot": "FrogBot",
+                "unitDistance": "meters",
+                "unitRotation": "degrees"
+              },
+              "configHidden": false,
+              "visualizer": {
+                "cameraIndex": -2,
+                "orbitFov": 50,
+                "cameraPosition": [
+                  1.3063202778218637,
+                  1.440223323451582,
+                  -1.6307996301781127
+                ],
+                "cameraTarget": [
+                  0,
+                  0.5,
+                  0
+                ]
+              },
+              "title": "3D Field"
+            },
+            {
+              "type": 3,
+              "field": "NT:/Shuffleboard/ShotPlanner/Current ShotMap 2D",
+              "title": "Console"
+            },
+            {
+              "type": 3,
+              "field": null,
+              "title": "Console"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "satellites": [
+    {
+      "x": -6,
+      "y": 0,
+      "width": 504,
+      "height": 758,
+      "state": {
+        "type": 8,
+        "visualizer": null
+      },
+      "uuid": "47uw5hovjpljcdppehvj8hwee62q0en2"
+    }
+  ],
+  "version": "3.2.0"
+}

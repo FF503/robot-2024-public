@@ -1,0 +1,49 @@
+{
+  "Connections": {
+    "open": true
+  },
+  "NetworkTables Settings": {
+    "mode": "Client (NT3)",
+    "serverTeam": "503"
+  },
+  "persistent": {
+    "Shuffleboard": {
+      "DriverStation": {
+        "Auto Chooser": {
+          "open": true
+        },
+        "open": true
+      },
+      "open": true
+    }
+  },
+  "transitory": {
+    "Shuffleboard": {
+      "DriverStation": {
+        "Auto Chooser": {
+          "open": true
+        },
+        "open": true
+      },
+      "Shooter": {
+        "open": true
+      },
+      "open": true
+    },
+    "SmartDashboard": {
+      "open": true
+    },
+    "photonvision": {
+      "FrontCamera": {
+        "open": true
+      },
+      "backLeftCamera": {
+        "open": true
+      },
+      "frontLeftCamera": {
+        "open": true
+      },
+      "open": true
+    }
+  }
+}
